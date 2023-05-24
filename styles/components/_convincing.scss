@@ -1,0 +1,40 @@
+@import '../abstract/variables';
+
+#convincing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 30px;
+
+    .img-container {
+        background-color: $first-color;
+    }
+
+    .text {
+        margin-top: 20px;
+        text-align: center;
+        width: 80vw;
+
+        h3 {
+            font-size: calc($font-size-king / 1.5);
+            font-weight: bold;
+            color: $third-color;
+            margin-bottom: 3px;
+        }
+
+        h4 {
+            font-size: calc($font-size-king / 2);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: calc($font-size-king / 2.2);
+            line-height: 1.2rem;
+            margin-top: .8rem;
+            text-decoration: underline 2px solid $third-color;
+        }
+    }
+}
